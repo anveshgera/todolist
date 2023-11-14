@@ -1,0 +1,54 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#add-task-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#new-task-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#add-task-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#tasks {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.task {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task.completed {
+    text-decoration: line-through;
+}
+
+.task-checkbox {
+    cursor: pointer;
+}
+
+.task-delete {
+    cursor: pointer;
+}
